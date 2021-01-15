@@ -34,5 +34,5 @@ const PARAMS = {
 const pane = new Tweakpane();
 pane.addInput(PARAMS, 'speed');
 ```
-![alt text](tweakpane.png)
+![Screenshot](tweakpane.png)
 
