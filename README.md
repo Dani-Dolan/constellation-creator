@@ -1,6 +1,8 @@
 # constellation-creator :star:
 Visit https://constellation-creator.github.io/ to see it in Action!
 
+![Screenshot](constellationvid.gif)
+
 ## Houdini
 Made with Houdini, a set of low-level APIs that exposes parts of the CSS engine, giving the power to extend CSS by hooking into the styling and layout process of a browser’s rendering engine. 
 
