@@ -1,0 +1,49 @@
+:root {
+  --size: 300px;
+  --color-dark: #353535;
+  --color-medium: #353535;
+  --color-light: #353535;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --size: 1500px;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: serif;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.css-houdini {
+  height: var(--size);
+  padding: 1em;
+  box-sizing: content-box;
+  width: var(--size);
+}
+
+.connections {
+  --connections-particleColor: rgb(160, 0, 176); 
+  --connections-lineColor: rgb(255, 255, 255);
+  --connections-background: rgb(255, 255, 255);
+  --connections-particleAmount: 400;
+  --connections-defaultRadius: 1.5;
+  --connections-variantRadius: 3.0;
+  --connections-linkRadius: 150;
+
+
+  background-image: paint(connections);
+}
