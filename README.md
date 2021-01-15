@@ -11,7 +11,28 @@ A feature of CSS Houdini is the Worklet. With worklets, you can create modular C
 </script>
 ```
 
-## TweakPane
+## Tweakpane
 Utilizes a compact pane library for fine-tuning parameters and monitoring value changes.
+
+1. Integreate Tweakpane
+```HTML
+<script src="https://cdn.jsdelivr.net/npm/tweakpane@1.5.7/dist/tweakpane.min.js"></script>
+```
+
+2. Create a pane
+```HTML
+const pane = new Tweakpane();
+```
+3. Create Parameters 
+```HTML
+// Parameter object
+const PARAMS = {
+  speed: 0.5,
+};
+
+// Pass the object and its key to pane
+const pane = new Tweakpane();
+pane.addInput(PARAMS, 'speed');
+```
 
 
