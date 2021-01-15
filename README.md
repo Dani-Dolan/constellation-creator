@@ -1,4 +1,4 @@
-# constellation-creator :star:
+# Constellation Creator :star:
 Visit https://constellation-creator.github.io/ to see it in Action!
 
 ![Screenshot](constellationvid.gif)
